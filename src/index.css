@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #f1f5f9;
+}
+body {
+  background-color: #1a202c;
+  color: #f1f5f9;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
